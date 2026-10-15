@@ -56,12 +56,23 @@ img{display:block;width:100%;object-fit:cover} a{color:inherit;text-decoration:n
 .sticky{position:absolute;right:-60px;top:-34px;width:210px;padding:16px 18px;background:#fcf7a6;box-shadow:var(--sh);z-index:3}
 .sticky p{font:17px/1.35 'Architects Daughter';}
 /* footer */
+a.card{display:block} a.card:hover h3{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px} a.card .mount{transition:transform .2s} a.card:hover .mount{transform:translateY(-3px)}
+.all{margin-top:56px;font-size:16px;display:flex;flex-wrap:wrap;gap:10px 22px} .all a{text-decoration:underline;text-underline-offset:4px}
 footer{position:relative;margin-top:-30px;color:var(--paper);overflow:hidden}
 footer .body{background:#2a211c;padding:20px 0 50px;margin-top:-2px}
 footer h2{font:700 52px/1.05 'Bricolage Grotesque';letter-spacing:-.025em;max-width:780px}
 footer .row{display:flex;justify-content:space-between;align-items:flex-end;gap:30px}
 footer .mail{font:24px 'Architects Daughter';margin-top:20px;display:inline-block}
 footer .small{display:flex;justify-content:space-between;margin-top:60px;opacity:.55}
+@media (max-width:900px){
+.wrap{padding:0 16px} .top{flex-wrap:wrap;gap:18px;padding-top:24px} .tabs{margin-right:0;flex-wrap:wrap} .tab{padding:9px 9px 7px;font-size:12px;letter-spacing:.03em} .tab.on{padding-bottom:9px}
+.sheet{padding:40px 22px 60px} .hero{grid-template-columns:1fr;gap:24px} .hero h1{font-size:42px} .hero p{font-size:17px}
+.shot{margin:10px 0 30px} .shot svg{display:none} .dotcard{grid-template-columns:1fr;gap:24px;padding:26px 22px;margin-top:30px}
+.sec{margin-top:60px;max-width:100%;height:auto} main svg,footer svg{max-width:100%}
+.lead{grid-template-columns:1fr;gap:28px} .stage{height:auto} .drw{position:relative;left:0;width:80%} .rnd{position:relative;width:88%;margin:-40px 0 0 auto}
+.lead h3{font-size:34px} .grid3{grid-template-columns:1fr;gap:44px;margin-top:60px}
+footer h2{font-size:32px} footer .row{flex-wrap:wrap} footer .mail{font-size:18px;word-break:break-all} footer .small{margin-top:40px}
+}
 
 main img{height:auto}
 .crumb{display:inline-block;margin-bottom:18px;font-size:15px;color:var(--soft)}
@@ -127,9 +138,9 @@ a:focus-visible,[tabindex]:focus-visible{outline:2px solid #2655cb;outline-offse
 
 <section class="facts"><div><span class="label">Role</span><p>Ride + area concept design, layout, show set, scripting</p></div><div><span class="label">Technical design</span><p>Thomas Codling (banking, speed, block sections)</p></div><div><span class="label">Tools</span><p>Gravity Sketch, VR Sketch, SketchUp, Rhino + Grasshopper, No Limits 2, Enscape</p></div><div><span class="label">When</span><p>Fall 2025 · about two months · personal project</p></div></section>
 
-<section class="intro"><p class="note">One big project, coaster plus show set plus land, with every step of the process out in the open.</p>
+<div class="dz"><section class="intro"><p class="note">One big project, coaster plus show set plus land, with every step of the process out in the open.</p>
 <div><p>After a real coaster job wrapped, I wanted one project I could show from start to finish. The coaster flies over the pathways and dives into indoor scenes; the land and the ride share the same scenery.</p>
-<p>I picked <i>Bartholomew and the Oobleck</i> because it isn’t in Seuss Landing, it has clean rising action and a moral, and the Seuss style plays to what I’m good at: organic shapes, modelled in VR.</p></div></section>
+<p>I picked <i>Bartholomew and the Oobleck</i> because it isn’t in Seuss Landing, it has clean rising action and a moral, and the Seuss style plays to what I’m good at: organic shapes, modelled in VR.</p></div></section></div>
 
 <svg viewBox="0 0 560 60" width="560" height="60" class="sec" style="overflow:visible;"><circle cx="30" cy="30" r="25" fill="none" stroke="#2a211c" stroke-width="1.4"/><line x1="5" y1="30" x2="55" y2="30" stroke="#2a211c" stroke-width="1"/><path d="M59,30 L71,30 L59,9 Z" fill="#2655cb"/><text x="30" y="24" class="hc" font-size="13" text-anchor="middle" fill="#2a211c">01</text><text x="30" y="44" class="hc" font-size="10" text-anchor="middle" fill="#2a211c">PLAN</text><text x="88" y="40" style="font:700 30px Bricolage Grotesque;fill:#2a211c;letter-spacing:-.5px">How it came together</text></svg>
 <svg viewBox="0 0 1000 40" width="1000" height="40" class="divider" style="overflow:visible;"><path d="M-7.0,20.0 Q500.5,20.4 1007.9,20.0" fill="none" stroke="#2a211c" stroke-width="1.1" stroke-linecap="round" opacity="1"/><line x1="-5" y1="25" x2="5" y2="15" stroke="#2a211c" stroke-width="1.6" stroke-linecap="round"/><line x1="995" y1="25" x2="1005" y2="15" stroke="#2a211c" stroke-width="1.6" stroke-linecap="round"/><text x="500.0" y="13" class="hc" font-size="14" text-anchor="middle" fill="#2a211c">7 STEPS · SITE TO STORY</text></svg>
@@ -143,6 +154,8 @@ a:focus-visible,[tabindex]:focus-visible{outline:2px solid #2655cb;outline-offse
 
 <svg viewBox="0 0 560 60" width="560" height="60" class="sec" style="overflow:visible;"><circle cx="30" cy="30" r="25" fill="none" stroke="#2a211c" stroke-width="1.4"/><line x1="5" y1="30" x2="55" y2="30" stroke="#2a211c" stroke-width="1"/><path d="M59,30 L71,30 L59,9 Z" fill="#ff6702"/><text x="30" y="24" class="hc" font-size="13" text-anchor="middle" fill="#2a211c">02</text><text x="30" y="44" class="hc" font-size="10" text-anchor="middle" fill="#2a211c">NOTE</text><text x="88" y="40" style="font:700 30px Bricolage Grotesque;fill:#2a211c;letter-spacing:-.5px">What real designers said</text></svg>
 <div class="quotes"><div><p>“This is exactly what we do.”</p><span>A working coaster designer. He suggested a track switch after the station for cleaning.</span></div><div><p>Restrooms too small, emergency roads too narrow, one arch too low.</p><span>An area developer’s notes. All fair.</span></div><div><p>Show set columns too thin to clad the supports.</p><span>Another designer’s catch.</span></div></div>
+
+<a class="nextp" href="../../entertainment/village-gate/"><span class="hc">Next project →</span><b><span>The Wizard’s Gate</span></b><svg viewBox="0 0 260 12" width="260" height="12" class="" style="overflow:visible;display:block;margin-top:2px"><path d="M-1.5,6.0 Q128.6,6.2 258.8,5.0" fill="none" stroke="#2655cb" stroke-width="1.6" stroke-linecap="round" opacity="1"/></svg></a>
 
 <div class="credit"><p>Technical design with Thomas Codling, who pushed back well: he caught a mid-ride launch that, on a rollback, would have sent riders backward into a blind turn. A personal concept, not affiliated with Dr. Seuss Enterprises.</p>
 <div><a class="hc" style="font-size:17px" href="../../entertainment/">← Back to Entertainment</a><svg viewBox="0 0 190 12" width="190" height="12" class="" style="overflow:visible;display:block;margin-top:2px"><path d="M-0.1,6.0 Q93.9,4.4 187.9,5.0" fill="none" stroke="#2655cb" stroke-width="1.6" stroke-linecap="round" opacity="1"/></svg></div></div>

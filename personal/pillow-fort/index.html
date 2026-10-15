@@ -56,12 +56,23 @@ img{display:block;width:100%;object-fit:cover} a{color:inherit;text-decoration:n
 .sticky{position:absolute;right:-60px;top:-34px;width:210px;padding:16px 18px;background:#fcf7a6;box-shadow:var(--sh);z-index:3}
 .sticky p{font:17px/1.35 'Architects Daughter';}
 /* footer */
+a.card{display:block} a.card:hover h3{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px} a.card .mount{transition:transform .2s} a.card:hover .mount{transform:translateY(-3px)}
+.all{margin-top:56px;font-size:16px;display:flex;flex-wrap:wrap;gap:10px 22px} .all a{text-decoration:underline;text-underline-offset:4px}
 footer{position:relative;margin-top:-30px;color:var(--paper);overflow:hidden}
 footer .body{background:#2a211c;padding:20px 0 50px;margin-top:-2px}
 footer h2{font:700 52px/1.05 'Bricolage Grotesque';letter-spacing:-.025em;max-width:780px}
 footer .row{display:flex;justify-content:space-between;align-items:flex-end;gap:30px}
 footer .mail{font:24px 'Architects Daughter';margin-top:20px;display:inline-block}
 footer .small{display:flex;justify-content:space-between;margin-top:60px;opacity:.55}
+@media (max-width:900px){
+.wrap{padding:0 16px} .top{flex-wrap:wrap;gap:18px;padding-top:24px} .tabs{margin-right:0;flex-wrap:wrap} .tab{padding:9px 9px 7px;font-size:12px;letter-spacing:.03em} .tab.on{padding-bottom:9px}
+.sheet{padding:40px 22px 60px} .hero{grid-template-columns:1fr;gap:24px} .hero h1{font-size:42px} .hero p{font-size:17px}
+.shot{margin:10px 0 30px} .shot svg{display:none} .dotcard{grid-template-columns:1fr;gap:24px;padding:26px 22px;margin-top:30px}
+.sec{margin-top:60px;max-width:100%;height:auto} main svg,footer svg{max-width:100%}
+.lead{grid-template-columns:1fr;gap:28px} .stage{height:auto} .drw{position:relative;left:0;width:80%} .rnd{position:relative;width:88%;margin:-40px 0 0 auto}
+.lead h3{font-size:34px} .grid3{grid-template-columns:1fr;gap:44px;margin-top:60px}
+footer h2{font-size:32px} footer .row{flex-wrap:wrap} footer .mail{font-size:18px;word-break:break-all} footer .small{margin-top:40px}
+}
 
 main img{height:auto}
 .crumb{display:inline-block;margin-bottom:18px;font-size:15px;color:var(--soft)}
@@ -148,6 +159,8 @@ a:focus-visible,[tabindex]:focus-visible{outline:2px solid #2655cb;outline-offse
 <div class="gallery cols-3"><div class="mount"><img src="../../images/pillowfort-4224.jpg" alt="A draped doorway with lanterns and candles" loading="lazy" width="1300" height="1733"></div><div class="mount"><img src="../../images/pillowfort-4242.jpg" alt="Candles stacked on a side table" loading="lazy" width="1300" height="1733"></div><div class="mount"><img src="../../images/pillowfort-3887.jpg" alt="Through the curtains into the blue bedroom" loading="lazy" width="1300" height="1733"></div></div>
 
 <div class="cmphead"><h3><span>It stayed up</span></h3><p>The fort stayed up for weeks after the party: game nights, a group read-through and a board-game build all happened inside it.</p></div>
+
+<a class="nextp" href="../../personal/heartline/"><span class="hc">Next project →</span><b><span>HEARTLINE</span></b><svg viewBox="0 0 260 12" width="260" height="12" class="" style="overflow:visible;display:block;margin-top:2px"><path d="M-1.5,6.0 Q128.6,6.2 258.8,5.0" fill="none" stroke="#fee767" stroke-width="1.6" stroke-linecap="round" opacity="1"/></svg></a>
 
 <div class="credit"><p>Designed and built by Cameron Creath for a friend’s party, June 2026.</p>
 <div><a class="hc" style="font-size:17px" href="../../personal/">← Back to Personal Projects</a><svg viewBox="0 0 230 12" width="230" height="12" class="" style="overflow:visible;display:block;margin-top:2px"><path d="M-0.1,6.0 Q113.9,4.4 227.9,5.0" fill="none" stroke="#fee767" stroke-width="1.6" stroke-linecap="round" opacity="1"/></svg></div></div>

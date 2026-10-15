@@ -55,12 +55,23 @@ img{display:block;width:100%;object-fit:cover} a{color:inherit;text-decoration:n
 .sticky{position:absolute;right:-60px;top:-34px;width:210px;padding:16px 18px;background:#fcf7a6;box-shadow:var(--sh);z-index:3}
 .sticky p{font:17px/1.35 'Architects Daughter';}
 /* footer */
+a.card{display:block} a.card:hover h3{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px} a.card .mount{transition:transform .2s} a.card:hover .mount{transform:translateY(-3px)}
+.all{margin-top:56px;font-size:16px;display:flex;flex-wrap:wrap;gap:10px 22px} .all a{text-decoration:underline;text-underline-offset:4px}
 footer{position:relative;margin-top:-30px;color:var(--paper);overflow:hidden}
 footer .body{background:#2a211c;padding:20px 0 50px;margin-top:-2px}
 footer h2{font:700 52px/1.05 'Bricolage Grotesque';letter-spacing:-.025em;max-width:780px}
 footer .row{display:flex;justify-content:space-between;align-items:flex-end;gap:30px}
 footer .mail{font:24px 'Architects Daughter';margin-top:20px;display:inline-block}
 footer .small{display:flex;justify-content:space-between;margin-top:60px;opacity:.55}
+@media (max-width:900px){
+.wrap{padding:0 16px} .top{flex-wrap:wrap;gap:18px;padding-top:24px} .tabs{margin-right:0;flex-wrap:wrap} .tab{padding:9px 9px 7px;font-size:12px;letter-spacing:.03em} .tab.on{padding-bottom:9px}
+.sheet{padding:40px 22px 60px} .hero{grid-template-columns:1fr;gap:24px} .hero h1{font-size:42px} .hero p{font-size:17px}
+.shot{margin:10px 0 30px} .shot svg{display:none} .dotcard{grid-template-columns:1fr;gap:24px;padding:26px 22px;margin-top:30px}
+.sec{margin-top:60px;max-width:100%;height:auto} main svg,footer svg{max-width:100%}
+.lead{grid-template-columns:1fr;gap:28px} .stage{height:auto} .drw{position:relative;left:0;width:80%} .rnd{position:relative;width:88%;margin:-40px 0 0 auto}
+.lead h3{font-size:34px} .grid3{grid-template-columns:1fr;gap:44px;margin-top:60px}
+footer h2{font-size:32px} footer .row{flex-wrap:wrap} footer .mail{font-size:18px;word-break:break-all} footer .small{margin-top:40px}
+}
 
 main img{height:auto}
 .crumb{display:inline-block;margin-bottom:18px;font-size:15px;color:var(--soft)}
@@ -119,7 +130,7 @@ a:focus-visible,[tabindex]:focus-visible{outline:2px solid #2655cb;outline-offse
 
 <main class="sheet"><section class="ptitle"><span class="chip"><i style="background:#2a211c"></i>About</span><h1>Hi, I’m Cameron.</h1>
 <p class="sub">A show set and attraction designer. I trained in theatre, spent years in hospitality interiors, and now design rides, rockwork and themed places.</p></section>
-<div class="cv"><div><h3>Where I’ve worked</h3><ul><li><b>Gensler</b><span>Hospitality interiors: Superdome club lounges, MGM Grand guestrooms</span></li><li><b>EDG Interior Architecture + Design</b><span>Hotel furniture: Aviator Anchorage, Viceroy Santa Monica, Mii amo Sedona</span></li><li><b>American Scenic</b><span>Attractions and show sets</span></li><li><b>Herschend</b><span>Rockwork, freelance</span></li><li><b>Own 3D modelling studio</b><span>Modelling and visualisation for clients</span></li><li><b>CalArts</b><span>BFA, Theatrical Set Design</span></li></ul></div>
+<div class="cv"><div><h3>Where I’ve worked</h3><ul><li><b>Gensler</b><span>Hospitality interiors: Superdome club lounges, MGM Grand guestrooms. Founded the Eduscape classroom program</span></li><li><b>EDG Interior Architecture + Design</b><span>Hotel furniture: Aviator Anchorage, Viceroy Santa Monica, Mii amo Sedona</span></li><li><b>American Scenic</b><span>Attractions and show sets</span></li><li><b>Herschend</b><span>Rockwork, freelance</span></li><li><b>Own 3D modelling studio</b><span>Modelling and visualisation for clients</span></li><li><b>CalArts</b><span>BFA, Theatrical Set Design</span></li></ul></div>
 <div><h3>What I work in</h3><p style="font-size:18px;color:var(--soft)">SketchUp · LayOut · Rhino + Grasshopper · Gravity Sketch · VR Sketch · Enscape · No Limits 2 · InDesign · Illustrator · Photoshop</p>
 <h3 style="margin-top:40px">Résumé</h3><p style="font-size:18px;color:var(--soft)">Happy to send it. <a href="mailto:cameroncreathdesign@gmail.com" style="color:#2655cb;text-decoration:underline">Email me</a>.</p></div></div></main></div>
 

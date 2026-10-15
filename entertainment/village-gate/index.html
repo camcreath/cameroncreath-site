@@ -56,12 +56,23 @@ img{display:block;width:100%;object-fit:cover} a{color:inherit;text-decoration:n
 .sticky{position:absolute;right:-60px;top:-34px;width:210px;padding:16px 18px;background:#fcf7a6;box-shadow:var(--sh);z-index:3}
 .sticky p{font:17px/1.35 'Architects Daughter';}
 /* footer */
+a.card{display:block} a.card:hover h3{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px} a.card .mount{transition:transform .2s} a.card:hover .mount{transform:translateY(-3px)}
+.all{margin-top:56px;font-size:16px;display:flex;flex-wrap:wrap;gap:10px 22px} .all a{text-decoration:underline;text-underline-offset:4px}
 footer{position:relative;margin-top:-30px;color:var(--paper);overflow:hidden}
 footer .body{background:#2a211c;padding:20px 0 50px;margin-top:-2px}
 footer h2{font:700 52px/1.05 'Bricolage Grotesque';letter-spacing:-.025em;max-width:780px}
 footer .row{display:flex;justify-content:space-between;align-items:flex-end;gap:30px}
 footer .mail{font:24px 'Architects Daughter';margin-top:20px;display:inline-block}
 footer .small{display:flex;justify-content:space-between;margin-top:60px;opacity:.55}
+@media (max-width:900px){
+.wrap{padding:0 16px} .top{flex-wrap:wrap;gap:18px;padding-top:24px} .tabs{margin-right:0;flex-wrap:wrap} .tab{padding:9px 9px 7px;font-size:12px;letter-spacing:.03em} .tab.on{padding-bottom:9px}
+.sheet{padding:40px 22px 60px} .hero{grid-template-columns:1fr;gap:24px} .hero h1{font-size:42px} .hero p{font-size:17px}
+.shot{margin:10px 0 30px} .shot svg{display:none} .dotcard{grid-template-columns:1fr;gap:24px;padding:26px 22px;margin-top:30px}
+.sec{margin-top:60px;max-width:100%;height:auto} main svg,footer svg{max-width:100%}
+.lead{grid-template-columns:1fr;gap:28px} .stage{height:auto} .drw{position:relative;left:0;width:80%} .rnd{position:relative;width:88%;margin:-40px 0 0 auto}
+.lead h3{font-size:34px} .grid3{grid-template-columns:1fr;gap:44px;margin-top:60px}
+footer h2{font-size:32px} footer .row{flex-wrap:wrap} footer .mail{font-size:18px;word-break:break-all} footer .small{margin-top:40px}
+}
 
 main img{height:auto}
 .crumb{display:inline-block;margin-bottom:18px;font-size:15px;color:var(--soft)}
@@ -143,6 +154,8 @@ a:focus-visible,[tabindex]:focus-visible{outline:2px solid #2655cb;outline-offse
 <figure class="photo w-wide"><div class="mount"><img src="../../images/dnd-elevation.jpg" alt="Dimensioned front elevation of the gate with material callouts" loading="lazy" width="2000" height="1131"></div><p class="cap">Front elevation: 42 ft to the top of the spire, stacked masonry, slate shingles, a lit fiberglass figure and a gas fire effect.</p></figure>
 
 <article class="step"><div class="pics"><div class="mount"><img src="../../images/dnd-spire-dwg.jpg" alt="Dimensioned spire drawing: oxidized brass and iron" loading="lazy" width="1248" height="1577"></div><div class="mount"><img src="../../images/dnd-materials.jpg" alt="Material samples: stacked stone, slate, aged brass, oxidized metal" loading="lazy" width="1101" height="1100"></div></div><div><h3>The spire, and what it’s made of</h3><p>The spire is drawn and dimensioned on its own: oxidized brass ribbons around an iron core. Material samples set the stone, slate and metal finishes.</p></div></article>
+
+<a class="nextp" href="../../interiors/eduscape/"><span class="hc">Next project →</span><b><span>Eduscape</span></b><svg viewBox="0 0 260 12" width="260" height="12" class="" style="overflow:visible;display:block;margin-top:2px"><path d="M-1.5,6.0 Q128.6,6.2 258.8,5.0" fill="none" stroke="#fe9c15" stroke-width="1.6" stroke-linecap="round" opacity="1"/></svg></a>
 
 <div class="credit"><p>Concept art by Andrew Carey. 3D modelling, rendering and drawings by Cameron Creath.</p>
 <div><a class="hc" style="font-size:17px" href="../../entertainment/">← Back to Entertainment</a><svg viewBox="0 0 220 12" width="220" height="12" class="" style="overflow:visible;display:block;margin-top:2px"><path d="M-0.1,6.0 Q108.9,4.4 217.9,5.0" fill="none" stroke="#2655cb" stroke-width="1.6" stroke-linecap="round" opacity="1"/></svg></div></div>
