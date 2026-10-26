@@ -31,11 +31,11 @@ img{display:block;width:100%;object-fit:cover} a{color:inherit;text-decoration:n
 .label{font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:.12em;text-transform:uppercase}
 .wrap{max-width:1280px;margin:0 auto;padding:0 40px}
 /* top: name + paper index tabs */
-.top{display:flex;justify-content:space-between;align-items:flex-end;padding-top:34px}
-.name b{display:block;font:700 26px/1 'Bricolage Grotesque';letter-spacing:-.02em}
-.name span{display:block;margin-top:9px;font-size:11px}
+.top{display:flex;justify-content:space-between;align-items:flex-end;padding-top:52px}
+.name b{display:block;font:700 40px/1 'Bricolage Grotesque';letter-spacing:-.025em}
+.name span{display:block;margin-top:10px;font-size:11px}
 .tabs{display:flex;gap:4px;align-items:flex-end;margin-right:28px}
-.tab{position:relative;padding:14px 20px 12px;border-radius:6px 6px 0 0;font:500 12px 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:.1em;box-shadow:0 -1px 0 rgba(255,255,255,.5) inset,0 -2px 6px -2px rgba(90,74,58,.18);background-image:url('data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27300%27%20height%3D%27300%27%3E%3Cfilter%20id%3D%27t%27%20x%3D%270%27%20y%3D%270%27%20width%3D%27100%25%27%20height%3D%27100%25%27%3E%3CfeTurbulence%20type%3D%27fractalNoise%27%20baseFrequency%3D%27.5%27%20numOctaves%3D%273%27%20seed%3D%277%27%20stitchTiles%3D%27stitch%27/%3E%3CfeDiffuseLighting%20lighting-color%3D%27%23fff%27%20surfaceScale%3D%271.2%27%3E%3CfeDistantLight%20azimuth%3D%27225%27%20elevation%3D%2768%27/%3E%3C/feDiffuseLighting%3E%3CfeComponentTransfer%3E%3CfeFuncR%20type%3D%27linear%27%20slope%3D%270.24%27%20intercept%3D%270.78%27/%3E%3CfeFuncG%20type%3D%27linear%27%20slope%3D%270.24%27%20intercept%3D%270.78%27/%3E%3CfeFuncB%20type%3D%27linear%27%20slope%3D%270.24%27%20intercept%3D%270.78%27/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect%20width%3D%27100%25%27%20height%3D%27100%25%27%20filter%3D%27url%28%23t%29%27/%3E%3C/svg%3E');background-blend-mode:multiply}
+.tab{position:relative;white-space:nowrap;padding:14px 20px 12px;border-radius:6px 6px 0 0;font:500 12px 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:.1em;box-shadow:0 -1px 0 rgba(255,255,255,.5) inset,0 -2px 6px -2px rgba(90,74,58,.18);background-image:url('data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27300%27%20height%3D%27300%27%3E%3Cfilter%20id%3D%27t%27%20x%3D%270%27%20y%3D%270%27%20width%3D%27100%25%27%20height%3D%27100%25%27%3E%3CfeTurbulence%20type%3D%27fractalNoise%27%20baseFrequency%3D%27.5%27%20numOctaves%3D%273%27%20seed%3D%277%27%20stitchTiles%3D%27stitch%27/%3E%3CfeDiffuseLighting%20lighting-color%3D%27%23fff%27%20surfaceScale%3D%271.2%27%3E%3CfeDistantLight%20azimuth%3D%27225%27%20elevation%3D%2768%27/%3E%3C/feDiffuseLighting%3E%3CfeComponentTransfer%3E%3CfeFuncR%20type%3D%27linear%27%20slope%3D%270.24%27%20intercept%3D%270.78%27/%3E%3CfeFuncG%20type%3D%27linear%27%20slope%3D%270.24%27%20intercept%3D%270.78%27/%3E%3CfeFuncB%20type%3D%27linear%27%20slope%3D%270.24%27%20intercept%3D%270.78%27/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect%20width%3D%27100%25%27%20height%3D%27100%25%27%20filter%3D%27url%28%23t%29%27/%3E%3C/svg%3E');background-blend-mode:multiply}
 .tab.on{background-color:var(--paper);padding-bottom:16px;z-index:2;box-shadow:0 -2px 6px -2px rgba(90,74,58,.18)}
 .sheet{position:relative;background-color:var(--paper);background-image:url('data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27300%27%20height%3D%27300%27%3E%3Cfilter%20id%3D%27t%27%20x%3D%270%27%20y%3D%270%27%20width%3D%27100%25%27%20height%3D%27100%25%27%3E%3CfeTurbulence%20type%3D%27fractalNoise%27%20baseFrequency%3D%27.9%27%20numOctaves%3D%272%27%20seed%3D%279%27%20stitchTiles%3D%27stitch%27/%3E%3CfeDiffuseLighting%20lighting-color%3D%27%23fff%27%20surfaceScale%3D%270.6%27%3E%3CfeDistantLight%20azimuth%3D%27225%27%20elevation%3D%2778%27/%3E%3C/feDiffuseLighting%3E%3CfeComponentTransfer%3E%3CfeFuncR%20type%3D%27linear%27%20slope%3D%270.12%27%20intercept%3D%270.88%27/%3E%3CfeFuncG%20type%3D%27linear%27%20slope%3D%270.12%27%20intercept%3D%270.88%27/%3E%3CfeFuncB%20type%3D%27linear%27%20slope%3D%270.12%27%20intercept%3D%270.88%27/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect%20width%3D%27100%25%27%20height%3D%27100%25%27%20filter%3D%27url%28%23t%29%27/%3E%3C/svg%3E');background-blend-mode:multiply;box-shadow:var(--sh2);padding:70px 56px 80px}
 /* hero */
@@ -49,8 +49,8 @@ img{display:block;width:100%;object-fit:cover} a{color:inherit;text-decoration:n
 .dotcard{margin-top:70px;padding:34px 40px;background-color:#fbf9f4;background-image:radial-gradient(rgba(42,33,28,.24) 1px,transparent 1.3px);background-size:18px 18px;box-shadow:var(--sh);display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
 .do svg{display:block;margin-bottom:10px} .do h3{font:700 21px/1.2 'Bricolage Grotesque';margin-bottom:8px} .do p{color:var(--soft);font-size:16px}
 /* work */
-.sec{display:block;margin:100px 0 10px}
-.divider{display:block;width:100%;height:auto;margin:8px 0 36px;overflow:visible}
+.sec{display:block;margin:100px 0 28px} .divider+.sec{margin-top:10px}
+.divider{display:block;width:100%;height:auto;margin:100px 0 0;overflow:visible}
 .lead{display:grid;grid-template-columns:7fr 5fr;gap:56px;align-items:center}
 .stage{position:relative;height:500px}
 .drw{position:absolute;left:-70px;top:0;width:62%;padding:18px;background-color:#fbfaf6;background-image:linear-gradient(rgba(38,85,203,.20) 1px,transparent 1px),linear-gradient(90deg,rgba(38,85,203,.20) 1px,transparent 1px),linear-gradient(rgba(38,85,203,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(38,85,203,.08) 1px,transparent 1px);background-size:50px 50px,50px 50px,10px 10px,10px 10px;box-shadow:var(--sh)}
@@ -62,8 +62,7 @@ img{display:block;width:100%;object-fit:cover} a{color:inherit;text-decoration:n
 .lead h3{font:700 46px/1.02 'Bricolage Grotesque';letter-spacing:-.025em;margin:16px 0 14px}
 .lead p{color:var(--soft);font-size:18px}
 .steps{list-style:none;padding:0;margin:22px 0 0} .steps li{display:flex;gap:12px;align-items:center;margin:8px 0;font-size:16px}
-.chip{display:inline-flex;align-items:center;gap:9px;font:500 11px 'IBM Plex Mono';letter-spacing:.1em;text-transform:uppercase;padding:8px 12px 7px;background:#fbfaf4;box-shadow:var(--sh)}
-.chip i{width:9px;height:9px;border-radius:50%}
+.chip{display:inline-flex;align-items:center;gap:9px;font:500 11px 'IBM Plex Mono';letter-spacing:.1em;text-transform:uppercase;padding:8px 12px 7px 10px;background:#fbfaf4;box-shadow:var(--sh)}
 .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;margin-top:90px}
 .card .mount{padding:8px;background:#fcfaf6;box-shadow:var(--sh);margin-bottom:20px}
 .card .mount img{aspect-ratio:4/3}
@@ -71,6 +70,12 @@ img{display:block;width:100%;object-fit:cover} a{color:inherit;text-decoration:n
 .card p{color:var(--soft);font-size:16px} .card .meta{display:block;margin-top:12px;font:500 11px 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:.1em;color:var(--soft)}
 .sticky{position:absolute;right:-60px;top:-34px;width:210px;padding:16px 18px;background:#fbf7b0;box-shadow:var(--sh);z-index:3}
 .sticky p{font:17px/1.35 'Architects Daughter';}
+/* employers row */
+.firms{margin:26px 0 0;font:500 12px/2 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--soft)} .firms b{display:block;font-weight:500;color:var(--ink);opacity:.55;font-size:11px;letter-spacing:.14em} .firms .focus{display:block;margin-top:6px;font:17px/1.5 Figtree,sans-serif;letter-spacing:0;text-transform:none}
+/* about: sticky-note timeline + conversation box */
+.tl{display:flex;flex-wrap:wrap;align-items:center;gap:14px 8px;margin:46px 0 0;padding:0;list-style:none} .tl li{padding:12px 14px 14px;background:#fbf7b0;box-shadow:var(--sh);font:17px/1.25 'Architects Daughter';max-width:168px;transform:rotate(-1.5deg)} .tl li:nth-child(even){transform:rotate(1.2deg);background:#c6dffd} .tl li small{display:block;margin-top:4px;font-size:14px;color:var(--soft)} .tl li.arr{font:400 26px 'Architects Daughter';color:var(--soft);background:none;box-shadow:none;padding:0;transform:none;max-width:none}
+.convo{margin-top:40px;padding:26px 28px 28px;background:#fbf7b0;box-shadow:var(--sh);transform:rotate(-1deg);max-width:420px} .convo a{display:block;font:30px/1.15 'Architects Daughter';text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:6px;text-decoration-color:#3253c4} .convo p{margin-top:14px;font:17px/1.45 'Architects Daughter';color:var(--soft)}
+.cv .tools li{border:0;padding:4px 0} .cv .tools b{font-weight:600} .cv .tools span{display:block}
 /* footer */
 a.card{display:block} a.card:hover h3{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px} a.card .mount{transition:transform .2s} a.card:hover .mount{transform:translateY(-3px)}
 .all{margin-top:56px;font-size:13px;display:flex;flex-wrap:wrap;gap:10px 22px} .all a{text-decoration:underline;text-underline-offset:4px}
@@ -81,12 +86,13 @@ footer .row{display:flex;justify-content:space-between;align-items:flex-end;gap:
 footer .mail{font:600 21px Figtree,sans-serif;letter-spacing:-.01em;margin-top:20px;display:inline-block}
 footer .small{display:flex;justify-content:space-between;margin-top:60px;opacity:.55}
 @media (max-width:900px){
-.wrap{padding:0 16px} .top{flex-wrap:wrap;gap:18px;padding-top:24px} .tabs{margin-right:0;flex-wrap:wrap} .tab{padding:10px 9px 8px;font-size:10px;letter-spacing:.05em} .tab.on{padding-bottom:9px}
+.wrap{padding:0 16px} .top{flex-wrap:wrap;gap:18px;padding-top:28px} .name b{font-size:30px} .tabs{margin-right:0;flex-wrap:wrap} .tab{padding:10px 9px 8px;font-size:10px;letter-spacing:.05em} .tab.on{padding-bottom:9px}
 .sheet{padding:40px 22px 60px} .hero{grid-template-columns:1fr;gap:24px} .hero h1{font-size:42px} .hero p{font-size:17px}
 .shot{margin:10px 0 30px} .shot svg{display:none} .dotcard{grid-template-columns:1fr;gap:24px;padding:26px 22px;margin-top:30px}
-.sec{margin-top:60px;max-width:100%;height:auto} main svg,footer svg{max-width:100%}
+.sec{margin-top:60px;max-width:100%;height:auto} .divider{margin-top:60px} .divider+.sec{margin-top:6px} main svg,footer svg{max-width:100%}
 .lead{grid-template-columns:1fr;gap:28px} .stage{height:auto} .drw{position:relative;left:0;width:80%} .rnd{position:relative;width:88%;margin:-40px 0 0 auto}
 .lead h3{font-size:34px} .grid3{grid-template-columns:1fr;gap:44px;margin-top:60px}
+.tl{flex-direction:column;align-items:flex-start;gap:12px} .tl li.arr{transform:rotate(90deg);margin-left:60px;line-height:1} .convo{max-width:none}
 footer h2{font-size:32px} footer .row{flex-wrap:wrap} footer .mail{font-size:18px;word-break:break-all} footer .small{margin-top:40px}
 }
 
@@ -143,12 +149,12 @@ a:focus-visible,[tabindex]:focus-visible{outline:2px solid #3253c4;outline-offse
 .ptitle h1{font-size:42px}.pano{margin:30px -12px 0}.facts,.intro,.step,.quotes,.cgrid,.cv{grid-template-columns:1fr;gap:24px}.step.flip{grid-template-columns:1fr}.step.flip>.pics{order:0}.step{margin-top:60px}footer h2{font-size:34px}footer .row{flex-wrap:wrap}main svg,footer svg{max-width:100%}.sec{height:auto}.mail{font-size:18px!important;word-break:break-all}}
 h1,h2,h3,.sub,.note,.cap,figcaption,.hc,.label,.chip{text-wrap:balance} p,li{text-wrap:pretty}</style></head><body>
 <div class="wrap">
-<header class="top"><a class="name" href="../../"><b>Cameron Creath</b><span class="hc">Show Set&nbsp;· Interiors&nbsp;· Attractions</span></a>
-<nav class="tabs"><a class="tab" style="background-color:#76c3f1" href="../../entertainment/">Entertainment</a><a class="tab" style="background-color:#f1a13e" href="../../interiors/">Interiors</a><a class="tab on" href="../../personal/">Personal Projects</a><a class="tab" style="background-color:#c6dffd" href="../../about/">About</a></nav></header>
+<header class="top"><a class="name" href="../../"><b>Cameron Creath Design</b><span class="hc">Show Set&nbsp;· Interiors&nbsp;· Attractions</span></a>
+<nav class="tabs"><a class="tab" style="background-color:#76c3f1" href="../../entertainment/">Entertainment</a><a class="tab" style="background-color:#f1a13e" href="../../interiors/">Interiors</a><a class="tab on" href="../../personal/">Personal Projects</a><a class="tab" style="background-color:#c6dffd" href="../../about/">About me</a></nav></header>
 
 <main class="sheet">
 <a class="crumb hc" href="../../personal/">← Personal Projects</a>
-<section class="ptitle"><span class="chip"><i style="background:#fae87a"></i>Themed environment</span>
+<section class="ptitle"><span class="chip" style="border-left:4px solid #fae87a">Themed environment</span>
 <h1>The Celestial Pillow Fort</h1>
 <p class="sub">A summer solstice birthday party for my friend Camrin Arreseigor. A pillow fort that took over the whole house.</p></section>
 <div class="carousel slides w-bleed" data-speed="medium" tabindex="0" role="region" aria-label="Photos, scroll sideways"><div class="track"><div class="mount"><img src="../../images/pillowfort-3720.jpg" alt="The Sweet Dreams entrance: a draped blue altar under gold stars" loading="lazy" width="2000" height="1500"></div><div class="mount"><img src="../../images/pillowfort-3879.jpg" alt="The blue bedroom: string lights, a big bed and glowing lanterns" loading="lazy" width="2000" height="1500"></div><div class="mount"><img src="../../images/pillowfort-4013.jpg" alt="The green jungle room: hand-painted leaf cloths, plants and lanterns" loading="lazy" width="2000" height="1500"></div><div class="mount"><img src="../../images/pillowfort-4206.jpg" alt="The main lounge: a pale draped ceiling over sofas and candles" loading="lazy" width="2000" height="1500"></div></div></div>
@@ -176,7 +182,7 @@ h1,h2,h3,.sub,.note,.cap,figcaption,.hc,.label,.chip{text-wrap:balance} p,li{tex
 
 <div class="cmphead"><h3><span>It stayed up</span></h3><p>It stayed up for weeks: game nights, a read-through, a board-game build.</p></div>
 
-<a class="nextp" href="../../personal/heartline/"><span class="hc">Next project →</span><b><span>HEARTLINE</span></b><svg viewBox="0 0 260 12" width="260" height="12" class="" style="overflow:visible;display:block;margin-top:2px"><path d="M-1.5,6.0 Q128.6,6.2 258.8,5.0" fill="none" stroke="#fae87a" stroke-width="1.6" stroke-linecap="round" opacity="1"/></svg></a>
+<a class="nextp" href="../../personal/paper-cards/"><span class="hc">Next project →</span><b><span>Paper Cards</span></b><svg viewBox="0 0 260 12" width="260" height="12" class="" style="overflow:visible;display:block;margin-top:2px"><path d="M-1.5,6.0 Q128.6,6.2 258.8,5.0" fill="none" stroke="#fae87a" stroke-width="1.6" stroke-linecap="round" opacity="1"/></svg></a>
 
 <div class="credit"><p>Designed by Cameron Creath. Built with Camrin Arreseigor, Levi Kiess and Christopher Erbe. Thanks to Andrew Carey and Michael Gleason.</p>
 <div><a class="hc" style="font-size:13px" href="../../personal/">← Back to Personal Projects</a><svg viewBox="0 0 230 12" width="230" height="12" class="" style="overflow:visible;display:block;margin-top:2px"><path d="M-0.1,6.0 Q113.9,4.4 227.9,5.0" fill="none" stroke="#fae87a" stroke-width="1.6" stroke-linecap="round" opacity="1"/></svg></div></div>
